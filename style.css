@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0d0e0f;
+  background-color: #a6a7a8;
 }
 
 body,
@@ -51,23 +51,11 @@ main {
   border: 0;
   height: 36px;
   padding: 4px 16px;
-  background-color: white;
+  background-color: rgb(10, 8, 8);
 }
 
-.pokemonBox {
+.result {
   display: flex;
   margin-top: 2rem;
   justify-content: center;
-}
-
-.pokemonBox img {
-  width: 200px;
-}
-
-.pokemonBox p {
-  margin-top: 1rem;
-}
-
-.pokemonBox .pokemonInfos {
-  padding: 2rem;
 }

@@ -7,7 +7,7 @@ function getUser(e){
     .then((response) => response.json())
     .then((data) => {
         document.querySelector('.result').innerHTML = `
-        <div>User ID: ${data.id}</div>`;
+        <div style="background-color: white; color: black; padding: 4px 16px; border-radius: 8px;">User ID: ${data.id}</div>`;
     })
     .catch((err) => {
         document.querySelector('.result').innerHTML = `
